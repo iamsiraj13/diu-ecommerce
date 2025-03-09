@@ -1,16 +1,16 @@
-import './App.css'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import CompanyLogo from './components/CompanyLogo'
-import PurposeSection from './components/PurposeSection'
-import FeaturesSection from './components/FeaturesSection'
-import ScheduleSection from './components/ScheduleSection'
-import MonitorSection from './components/MonitorSection'
-import PricingSection from './components/PricingSection'
-import ServicesSection from './components/ServicesSection'
-import TestimonialsSection from './components/TestimonialsSection'
-import NewsletterSection from './components/NewsletterSection'
-import Footer from './components/Footer'
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import CompanyLogo from "./components/CompanyLogo";
+import PurposeSection from "./components/PurposeSection";
+import FeaturesSection from "./components/FeaturesSection";
+import ScheduleSection from "./components/ScheduleSection";
+import MonitorSection from "./components/MonitorSection";
+import PricingSection from "./components/PricingSection";
+import ServicesSection from "./components/ServicesSection";
+import TestimonialsSection from "./components/TestimonialsSection";
+import NewsletterSection from "./components/NewsletterSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,19 +19,19 @@ function App() {
       <div className="overflow-hidden">
         <Navbar />
         <Hero />
-        <CompanyLogo />
-        <PurposeSection />
-        <FeaturesSection />
-        <ScheduleSection />
-        <MonitorSection />
-        <PricingSection />
-        <ServicesSection />
-        <TestimonialsSection />
-        <NewsletterSection />
+        {/* <CompanyLogo /> */}
+        {/* <PurposeSection /> */}
+        {/* <FeaturesSection /> */}
+        {/* <ScheduleSection /> */}
+        {/* <MonitorSection /> */}
+        {/* <PricingSection /> */}
+        {/* <ServicesSection /> */}
+        {/* <TestimonialsSection /> */}
+        {/* <NewsletterSection /> */}
         <Footer />
       </div>
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
