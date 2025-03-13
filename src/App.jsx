@@ -19,14 +19,14 @@ function App() {
       <div className="overflow-hidden">
         <Navbar />
         <Hero />
-        {/* <CompanyLogo /> */}
-        {/* <PurposeSection /> */}
-        {/* <FeaturesSection /> */}
+        <CompanyLogo />
+        <PurposeSection />
+        <FeaturesSection />
         {/* <ScheduleSection /> */}
         {/* <MonitorSection /> */}
         {/* <PricingSection /> */}
         {/* <ServicesSection /> */}
-        {/* <TestimonialsSection /> */}
+        <TestimonialsSection />
         {/* <NewsletterSection /> */}
         <Footer />
       </div>

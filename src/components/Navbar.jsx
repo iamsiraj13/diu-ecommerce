@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
-import { IoMdCart } from "react-icons/io";
+// import { IoMdCart } from "react-icons/io";
 import { IoCartOutline } from "react-icons/io5";
 import { FaUser } from "react-icons/fa";
-import { Link } from "react-router";
+// import { Link } from "react-router";
 import { CiShoppingCart } from "react-icons/ci";
 
 const Navbar = () => {
@@ -96,11 +96,11 @@ const Navbar = () => {
             </button>
             {dropdown && (
               <div
-                className={` absolute transition-all top-[250%] left-0 ${
+                className={` absolute transition-all top-[250%] right-0 ${
                   dropdown && "top-full"
                 }`}
               >
-                <ul className="w-[200px] shadow-2xl rounded-md bg-white py-2  flex flex-col space-y-2">
+                <ul className="w-[180px] shadow-2xl rounded-md bg-white py-2  flex flex-col space-y-2">
                   <li className="hover:bg-gray-300 px-2 font-normal  py-1">
                     Consumer Login
                   </li>

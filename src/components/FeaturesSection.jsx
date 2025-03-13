@@ -6,17 +6,17 @@ const FeaturesSection = () => {
   const features = [
     {
       icon: "🔍", 
-      title: "Find out what you need",
-      description: "We present you a proposal and discuss nitty-gritty like"
+      title: "Collect Product",
+      description: "We present to collect your product."
     },
     {
       icon: "⚙️",
-      title: "Work out the details", 
+      title: "Store to Warehouse", 
       description: "Communication protocols apart from engagement models"
     },
     {
       icon: "🚀",
-      title: "We get to work fast",
+      title: "Delivery to Customer",
       description: "Protocols apart from engage models, pricing billing"
     }
   ]
@@ -30,13 +30,13 @@ const FeaturesSection = () => {
     >
       <motion.div 
         variants={fadeIn('up', 0.3)}
-        className="text-center mb-12"
+        className="text-left mb-12 border-l-4 border-blue-600 pl-4"
       >
         <motion.h2 
           variants={textVariant(0.2)}
           className="text-3xl font-bold mb-4"
         >
-          How can we help your business?
+          Our Cycle
         </motion.h2>
         <motion.p 
           variants={fadeIn('up', 0.4)}
