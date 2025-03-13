@@ -40,11 +40,14 @@ const Navbar = () => {
           <motion.div
             whileHover={{ scale: 1.1 }}
             className="w-4 h-4 bg-blue-600 rounded-full opacity-75 hover:opacity-100 transition-opacity"
-          ></motion.div>
+          >
+            
+          </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
             className="w-4 h-4 bg-red-500 rounded-full -ml-2 hover:opacity-75 transition-opacity"
           ></motion.div>
+          <div><h2 className="text-black font-medium">DIU E-commerce</h2></div>
         </motion.div>
         {/* Mobile Menu Button */}
         <motion.button
