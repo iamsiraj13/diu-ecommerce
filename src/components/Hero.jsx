@@ -55,12 +55,14 @@ const Hero = () => {
           whileInView="show"
           className="flex gap-3 max-w-md"
         >
-          <button className="border border-blue-600 text-blue-600 px-8 py-4 rounded-xl hover:bg-blue-700 hover:text-white cursor-pointer transition-all hover:shadow-lg hover:shadow-blue-100 active:scale-95">
-            Consumer Login →
+         
+          <button className="bg-blue-600 flex gap-2 text-white px-4  py-4 rounded-xl hover:bg-white border border-transparent hover:border hover:border-blue-600 hover:text-blue-600 cursor-pointer transition-all hover:shadow-lg hover:shadow-blue-100 active:scale-95">
+            Consumer Login<span className="hidden sm:block">→</span>
           </button>
-          <button className="bg-blue-600 text-white px-8 py-4 rounded-xl hover:bg-white border border-transparent hover:border hover:border-blue-600 hover:text-blue-600 cursor-pointer transition-all hover:shadow-lg hover:shadow-blue-100 active:scale-95">
-            Farmer Login →
+          <button className="bg-blue-600 flex gap-2 text-white px-4  py-4 rounded-xl hover:bg-white border border-transparent hover:border hover:border-blue-600 hover:text-blue-600 cursor-pointer transition-all hover:shadow-lg hover:shadow-blue-100 active:scale-95">
+            Farmer Login<span className="hidden sm:block">→</span>
           </button>
+        
         </motion.div>
       </div>
 
