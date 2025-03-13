@@ -6,6 +6,7 @@ import { IoMdCart } from "react-icons/io";
 import { IoCartOutline } from "react-icons/io5";
 import { FaUser } from "react-icons/fa";
 import { Link } from "react-router";
+import { CiShoppingCart } from "react-icons/ci";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -82,7 +83,7 @@ const Navbar = () => {
         </motion.div>
 
         {/* CTA Button */}
-        <div className="flex space-x-3 ">
+        <div className=" space-x-3 hidden md:flex">
           <button className="hidden md:block cursor-pointer  text-bold text-black   py-2.5   text-sm font-medium transition-all hover:shadow-lg hover:shadow-blue-100">
             <IoCartOutline size={20} />
           </button>
@@ -95,7 +96,7 @@ const Navbar = () => {
             </button>
             {dropdown && (
               <div
-                className={`absolute transition-all top-[250%] left-0 ${
+                className={` absolute transition-all top-[250%] left-0 ${
                   dropdown && "top-full"
                 }`}
               >
